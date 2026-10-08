@@ -1,0 +1,28 @@
+const DATA = {
+  goal: 15000000,
+  raised: 6480000,
+  members: 1248,
+  chapters: 18,
+  programs: 9,
+  partners: 42,
+  events: 12,
+  leaders: 2870,
+  donors: 826,
+  monthly: [390, 460, 485, 520, 510, 585, 620, 680, 740, 780, 845, 865],
+  targets: [480, 510, 530, 550, 580, 610, 650, 700, 750, 790, 830, 880],
+  programsList: [
+    ["Leadership Development & Scholarships", "Active", 468, 82, "Leadership"],
+    ["Executive Mentorship", "Active", 215, 71, "Leadership"],
+    ["Clinical AI & Workflow Efficiency", "At risk", 138, 46, "Innovation"],
+    ["Start-up Navigator", "Active", 92, 64, "Innovation"],
+    ["Local Chapters & Global Convenings", "Active", 780, 76, "Connection"],
+    ["Cross-Sector Summits", "Planned", 0, 24, "Connection"],
+  ],
+  regions: [
+    ["North America", 650, 8, 18],
+    ["Europe", 280, 5, 10],
+    ["Asia Pacific", 205, 3, 8],
+    ["Latin America", 78, 1, 4],
+    ["Africa & Middle East", 35, 1, 2],
+  ],
+};

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GHLF | Impact & Development Dashboard</title>
+    <meta
+      name="description"
+      content="Global Healthcare Leaders Foundation impact and development dashboard demo"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23132838'/%3E%3Ctext x='32' y='43' font-size='29' text-anchor='middle' fill='white' font-family='Arial'%3EGH%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <img src="assets/ghlf-logo.png" alt="GHLF logo" />
+          <div>
+            <strong>GHLF</strong
+            ><small>GLOBAL HEALTHCARE<br />LEADERS FOUNDATION</small>
+          </div>
+        </div>
+        <nav class="nav" id="nav"></nav>
+        <div class="sidefoot">
+          Impact & Development Dashboard<br />Demonstration workspace
+        </div>
+      </aside>
+      <main class="main">
+        <header class="top">
+          <div class="top-title">Global Healthcare Leaders Foundation</div>
+          <div class="top-right">
+            <select id="period" aria-label="Reporting period">
+              <option value="fy">Fiscal year 2026</option>
+              <option value="q3">Q3 2026</option>
+              <option value="q2">Q2 2026</option></select
+            ><button class="btn" id="exportTop">↓ Export CSV</button
+            ><span class="avatar">GH</span>
+          </div>
+        </header>
+        <div class="content">
+          <div class="heading">
+            <div>
+              <p class="eyebrow">Impact & development</p>
+              <h1 id="pageTitle">Executive overview</h1>
+              <p class="sub" id="pageSub">
+                Leadership, innovation and global connection at a glance.
+              </p>
+            </div>
+            <span class="demo">◆ Sample data · demonstration</span>
+          </div>
+          <div class="notice">
+            The $15M campaign goal and program names come from GHLF’s website.
+            Every performance figure below is illustrative sample data,
+            including AI responses and projections.
+          </div>
+          <div id="view"></div>
+          <div class="sources">
+            Organizational context:
+            <a href="https://ghlfoundation.org/" target="_blank" rel="noopener"
+              >GHLF website</a
+            >
+            ·
+            <a
+              href="https://ghlfoundation.org/initiatives"
+              target="_blank"
+              rel="noopener"
+              >GHLF initiatives</a
+            >. Sample performance figures are generated for this demonstration
+            and do not represent foundation records.
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
